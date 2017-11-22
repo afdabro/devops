@@ -11,3 +11,7 @@
 
 - name: Install python virtual environment
   shell: pip install virtualenv
+
+# TODO: Find a better way to get Python version bin directory
+- name: Add Python3 $PATH export to profile.
+  script: ../../../utils/pathenv_update.sh $HOME/Library/Python/3.6/bin

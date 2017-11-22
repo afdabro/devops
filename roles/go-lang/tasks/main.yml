@@ -1,0 +1,16 @@
+---
+# Install and Configure Go language
+- name: Install Go
+  homebrew:
+    name: go
+    state: latest
+    install_options: --cross-compile-common
+
+- name: Create go directory
+  shell: mkdir -p $HOME/go
+  
+- name: Add $GOPATH export to profile.
+  script: ../../../utils/envvar_createnotexist.sh GOPATH=$HOME/go
+  
+- name: Add go $PATH export to profile.
+  script: ../../../utils/pathenv_update.sh $HOME/go/bin

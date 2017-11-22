@@ -11,3 +11,4 @@ echo "Reloading $filename settings"
 else
 echo "File $filename exists"
 fi
+exit 0
