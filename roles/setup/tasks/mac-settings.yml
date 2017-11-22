@@ -1,0 +1,8 @@
+---
+# Customize Mac Settings for development
+
+- name: Show Hidden Files
+  shell: defaults write com.apple.finder AppleShowAllFiles YES
+
+- name: Use all Fn as standard keys
+  shell: defaults write -g com.apple.keyboard.fnState -bool true

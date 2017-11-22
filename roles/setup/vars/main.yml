@@ -1,0 +1,20 @@
+---
+# list of applications to install
+general:
+  local_home: "{{ lookup('env','HOME') }}"
+
+# homebrew applications
+applications:
+  - git
+  - terraform
+
+# homebrew cask applications
+cask_applications:
+  - google-chrome
+  - slack
+  - iterm2
+  - docker
+  - intellij-idea-ce
+  - sourcetree
+  - visual-studio-code
+  - mysqlworkbench

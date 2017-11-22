@@ -1,0 +1,13 @@
+---
+# Install and Configure Python3 language
+# http://docs.python-guide.org/en/latest/dev/virtualenvs/#virtualenvironments-ref
+- name: Install Python3
+  homebrew:
+    name: python3
+    state: latest
+
+- name: Install python global dependency manager
+  shell: pip install --user pipenv
+
+- name: Install python virtual environment
+  shell: pip install virtualenv

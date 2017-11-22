@@ -1,0 +1,7 @@
+---
+# Install and configure JAVA language
+
+- name: start installing homebrew cask applications
+  homebrew_cask:
+    name: java
+    state: installed 

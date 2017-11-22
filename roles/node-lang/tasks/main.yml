@@ -1,0 +1,11 @@
+---
+# Install and Configure Node language
+- name: Install Node
+  homebrew:
+    name: node
+    state: latest
+
+- name: Install Yarn
+  homebrew:
+    name: yarn
+    state: latest

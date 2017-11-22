@@ -1,0 +1,9 @@
+---
+# setup dev mac
+
+- hosts: devlocal 
+  roles:
+    - setup
+    #- py3-lang
+    #- node-lang
+    #- java-lang
