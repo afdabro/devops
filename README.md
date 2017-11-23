@@ -5,7 +5,7 @@ The purpose of this repository is to automate most of the mac developer environm
 
 The easiest way to dive right in is to execute the following from the terminal:
 ```
-curl -s https://raw.githubusercontent.com/afdabro/devops/master/start.sh | /bin/bash
+curl -s https://raw.githubusercontent.com/afdabro/mac-dev-setup/master/start.sh | /bin/bash
 ```
 This will execute the Start Script to install the developer environment.
 
