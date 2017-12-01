@@ -11,6 +11,7 @@ applications:
 # homebrew cask applications
 cask_applications:
   - google-chrome
+  - postman
   - slack
   - iterm2
   - docker

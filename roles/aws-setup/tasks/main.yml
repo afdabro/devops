@@ -3,3 +3,6 @@
 
 - name: Install AWS CLI
   shell: pip3 install awscli --upgrade
+
+- name: Install AWS SAM Local
+  shell: npm install -g aws-sam-local
