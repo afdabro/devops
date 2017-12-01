@@ -1,9 +1,6 @@
 ---
 # Customize Mac Settings for development
 
-- name: Create .bash_profile if it does not exist.
-  script: ../../../utils/bash_profile_setup.sh
-
 - name: Show Hidden Files
   shell: defaults write com.apple.finder AppleShowAllFiles YES
 

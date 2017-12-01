@@ -1,0 +1,12 @@
+---
+# Setup scripts for development
+
+- name: Copy DevScripts
+  copy:
+    src: ../DevScripts
+    dest: $HOME
+    mode: 0755
+
+- name: Add DevScripts $PATH export to profile.
+  script: ../../../utils/pathenv_update.sh $HOME/DevScripts
+
