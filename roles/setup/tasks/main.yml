@@ -3,6 +3,3 @@
 
 - name: developer script setup
   include: dev-script-setup.yml
-
-- name: application installs
-  include: apps.yml

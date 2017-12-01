@@ -4,8 +4,9 @@
 - hosts: devlocal 
   roles:
     - setup
-    #- py3-lang
-    #- node-lang
-    #- aws-setup
+    - py3-lang
+    - node-lang
+    - aws-setup
     #- java-lang
     #- go-lang
+    - applications
